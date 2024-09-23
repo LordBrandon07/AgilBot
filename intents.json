@@ -1,0 +1,99 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "qué tal", "cómo estás", "saludos", "buenas", "hola qué tal", "hey", "hola amigo", "qué onda", "hola, cómo va todo", "buenos días", "buenas tardes", "buenas noches"],
+            "responses": ["¡Hola! ¿Cómo te encuentras hoy?", "Buenos días. ¿En qué puedo ayudarte?", "¡Hola! Espero que estés bien.", "Saludos, ¿cómo puedo asistirte?", "¡Hey! ¿Qué tal va todo?", "¡Hola! ¿En qué puedo servirte hoy?", "¡Hola! Encantado de verte.", "¡Hola! ¿Cómo puedo ayudarte hoy?"]
+        },
+        {
+            "tag": "nombre",
+            "patterns": ["cómo es tu nombre", "cómo te llamas", "cuál es tu nombre", "quién eres", "cómo te dicen", "cómo te llaman", "me puedes decir tu nombre", "quién eres tú"],
+            "responses": ["Me llamo AGILBOT, asistente virtual para la creación de proyectos àgiles.", "Mi nombre es AGILBOT. ¿En qué puedo asistirte?", "Soy AGILBOT, tu asistente virtual para la creación de proyectos àgiles.", "Me llaman AGILBOT, tu ayudante digital para la creación de proyectos àgiles.", "Soy AGILBOT, encantado de ayudarte.", "Mi nombre es AGILBOT, tu asistente personal para la creación de proyectos àgiles.", "Puedes llamarme AGILBOT, asistente virtual en la creación de proyectos àgiles.", "Soy AGILBOT, estoy atento a lo que necesites."]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["adiós", "hasta luego", "nos vemos", "chao", "me voy", "que tengas un buen día", "bye", "cuídate", "hasta pronto", "nos vemos después", "hasta la vista", "nos vemos más tarde", "hasta más ver", "chau"],
+            "responses": ["Adiós. ¡Que tengas un excelente día!", "Hasta luego. ¡Espero verte pronto!", "Cuídate. ¡Nos vemos luego!", "Que tengas un buen día.", "¡Hasta la próxima!", "¡Adiós! Cuídate mucho.", "¡Nos vemos pronto!", "¡Que tengas un día estupendo!"]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": ["gracias", "muchas gracias", "te agradezco", "muy amable", "mil gracias", "se agradece", "gracias por tu ayuda", "aprecio tu ayuda", "estoy agradecido", "eres muy amable"],
+            "responses": ["De nada. Estoy aquí para ayudarte.", "¡Con gusto!", "No hay de qué. Siempre a tu servicio.", "¡Es un placer ayudarte!", "Gracias a ti por confiar en mí.", "Siempre encantada de ayudar.", "¡A tu servicio!", "¡De nada, aquí para lo que necesites!", "¡Feliz de ayudar!"]
+        },
+        {
+            "tag": "horario",
+            "patterns": ["cuál es tu horario", "en qué horario estás disponible", "cuándo trabajas", "a qué hora puedo hablar contigo", "en qué momento puedo contactarte", "a qué horas puedo hablar contigo", "cuándo puedo hablar contigo", "cuál es tu disponibilidad", "cuándo estás disponible"],
+            "responses": ["Estoy disponible 24/7. Siempre listo para ayudarte.", "Puedes hablar conmigo en cualquier momento. Estoy aquí las 24 horas del día.", "Mi horario es ilimitado. Siempre estaré disponible para ti.", "Estoy aquí para ayudarte en cualquier momento del día.", "Puedes contactarme a cualquier hora, siempre estoy disponible.", "¡Estoy aquí 24/7 para asistirte!", "No tengo horarios. Puedes hablar conmigo cuando quieras."]
+        },
+        {
+            "tag": "ubicación",
+            "patterns": ["dónde estás", "cuál es tu ubicación", "en qué lugar te encuentras", "dónde puedo encontrarte", "cuál es tu dirección", "en qué parte estás", "dónde te localizo"],
+            "responses": ["Soy un asistente virtual, por lo que no tengo una ubicación física.", "Estoy en la nube, disponible desde cualquier lugar.", "No tengo una ubicación física, estoy aquí en línea para asistirte.", "No tengo un lugar físico, estoy en la red para ayudarte.", "Estoy en todos lados y en ningún lado, gracias a la tecnología.", "Mi hogar es el ciberespacio, siempre aquí para ti.", "Estoy aquí, disponible para ayudarte desde donde estés."]
+        },
+        {
+            "tag": "ayuda",
+            "patterns": ["necesito ayuda", "puedes ayudarme", "ayúdame", "tengo un problema", "estoy atascado", "puedes echarme una mano", "necesito asistencia", "me puedes ayudar", "me siento perdido", "estoy confundido", "requiero ayuda"],
+            "responses": ["Claro, ¿en qué puedo ayudarte?", "Estoy aquí para asistirte. ¿Cuál es tu problema?", "Por supuesto, dime qué necesitas.", "Estoy a tu disposición, cuéntame tu problema.", "Estoy aquí para ayudarte en lo que necesites.", "¿En qué te puedo echar una mano?", "Déjame ayudarte, dime qué necesitas.", "Estoy aquí para asistirte. ¿Qué puedo hacer por ti?"]
+        },
+        {
+            "tag": "clima",
+            "patterns": ["cómo está el clima", "qué clima hace", "qué tiempo hace hoy", "cómo estará el clima mañana", "puedes decirme el clima", "hace frío", "hace calor", "necesito saber el clima", "cómo está el tiempo", "puedes informarme del clima", "clima en mi zona"],
+            "responses": ["Lo siento, no tengo acceso a información del clima. Te recomiendo consultar un sitio especializado.", "Por ahora, no puedo proporcionarte datos meteorológicos, pero puedes buscar en tu aplicación de clima favorita.", "No tengo acceso a esa información, pero seguro que hay apps que pueden ayudarte.", "Lo siento, no dispongo de datos del clima en este momento.", "Te sugiero usar una aplicación meteorológica para consultar el clima."]
+        },
+        {
+            "tag": "edad",
+            "patterns": ["cuántos años tienes", "qué edad tienes", "cuál es tu edad", "eres joven", "eres viejo", "qué edad tienes", "cuántos años llevas funcionando"],
+            "responses": ["Soy un asistente virtual, así que no tengo edad.", "No tengo una edad específica, pero estoy aquí para ayudarte sin importar el tiempo.", "No tengo una edad como los humanos, pero estoy aquí para lo que necesites.", "Mi edad no importa, lo que importa es que estoy aquí para ayudarte.", "Soy ageless, pero siempre disponible para ti."]
+        },
+        {
+            "tag": "aficiones",
+            "patterns": ["qué te gusta hacer", "cuáles son tus hobbies", "tienes alguna afición", "qué te gusta", "tienes pasatiempos", "en qué te entretienes", "tienes algún hobby", "cuáles son tus pasatiempos"],
+            "responses": ["Como asistente virtual, disfruto ayudando a los demás.", "Mi pasatiempo favorito es aprender nuevas formas de asistirte.", "Me encanta poder ayudarte en lo que necesites.", "Mis hobbies son aprender, mejorar y ayudarte.", "Me gusta descubrir nuevas maneras de ser útil para ti.", "Disfruto de cada interacción, aprender y evolucionar son mis pasatiempos."]
+        },
+        {
+            "tag": "chiste",
+            "patterns": ["cuéntame un chiste", "sabes algún chiste", "hazme reír", "cuenta algo gracioso", "dime un chiste", "cuéntame algo divertido", "cuéntame algo chistoso", "sabes algún chiste bueno"],
+            "responses": ["¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.", "¿Cuál es el café más peligroso del mundo? El ex-preso.", "¿Qué le dice una impresora a otra? ¿Esa hoja es tuya o es una impresión mía?", "¿Por qué el libro de matemáticas estaba triste? Porque tenía demasiados problemas.", "¿Qué hace una abeja en el gimnasio? ¡Zumba!", "¡Soy tan virtual que ni mis chistes son reales!"]
+        },
+        {
+            "tag": "tecnología",
+            "patterns": ["háblame de tecnología", "qué sabes de inteligencia artificial", "qué es machine learning", "cuáles son las tendencias tecnológicas", "cuéntame algo de tecnología", "qué hay de nuevo en tecnología", "qué opinas sobre IA", "habla sobre tecnología", "cuáles son las innovaciones recientes en tecnología"],
+            "responses": ["La inteligencia artificial es una rama de la informática que busca desarrollar máquinas que puedan realizar tareas que normalmente requieren inteligencia humana.", "Machine Learning es una subdisciplina de la inteligencia artificial donde las máquinas aprenden a partir de datos sin ser programadas explícitamente para hacerlo.", "Algunas de las tendencias tecnológicas actuales incluyen inteligencia artificial, 5G, ciberseguridad, y realidad aumentada.", "La tecnología avanza rápidamente, con innovaciones en campos como la inteligencia artificial, la automatización y el internet de las cosas.", "IA, blockchain y 5G están marcando la pauta en el avance tecnológico."]
+        },
+        {
+            "tag": "programación",
+            "patterns": ["cómo programar", "qué lenguajes de programación me recomiendas", "cuál es el mejor lenguaje de programación", "cómo aprender a programar", "quiero aprender a programar", "cuáles son los lenguajes más usados", "cuáles son los lenguajes más populares", "cuál es el mejor lenguaje para principiantes", "qué lenguajes debería aprender", "cómo puedo empezar a programar"],
+            "responses": ["Para empezar a programar, te recomiendo aprender Python. Es un lenguaje sencillo y versátil.", "El mejor lenguaje de programación depende de lo que quieras hacer. Python es genial para IA, JavaScript para desarrollo web, y C++ para sistemas más complejos.", "¡Aprender a programar requiere práctica! Empieza por pequeños proyectos y ve avanzando gradualmente.", "Si estás comenzando, te sugiero Python por su simplicidad y comunidad de apoyo.", "JavaScript es excelente para desarrollo web, mientras que Python es muy versátil y útil para muchas áreas.", "Te recomendaría comenzar con un lenguaje fácil de aprender como Python o JavaScript."]
+        },
+        {
+            "tag": "proyecto ágil",
+            "patterns": ["qué es un proyecto ágil", "cómo definir un proyecto ágil", "cómo crear un proyecto ágil", "qué debo saber para crear un proyecto ágil", "cómo iniciar un proyecto ágil"],
+            "responses": ["Un proyecto ágil es un enfoque de gestión de proyectos que se centra en la flexibilidad, colaboración y entrega continua de valor.", "Un proyecto ágil se caracteriza por tener varios sprints o entregables.", "Recuerda que la agilidad es un enfoque y no una metodología rígida.", "Un proyecto ágil se inicia teniendo en cuenta los principios del manifiesto ágil."]
+        },
+        {
+            "tag": "desarrollo ágil",
+            "patterns": ["cuáles son los principios básicos del desarrollo ágil", "qué debo saber para iniciar un desarrollo ágil", "qué pasos se necesitan para un desarrollo ágil", "recomiéndame qué pasos seguir en un desarrollo ágil", "qué debo saber como desarrollador ágil"],
+            "responses": ["Los principios básicos del desarrollo ágil son: individuos y interacciones, funcionamiento del software, colaboración con el cliente y respuesta al cambio.", "Debes tener en cuenta 4 principios básicos: colaboración y comunicación, entrega de valor continua, aceptar y responder a cambios y focalizarte en el usuario.", "Debes tener en cuenta las siguientes fases: inicio, planificación, desarrollo o sprint, revisiòn y entrega.", "Debes tener presente que la agilidad es flexible y adaptable, y que cada paso varia dependiendo de las necesidades del proyecto."]
+        },
+        {
+            "tag": "sprint",
+            "patterns": ["qué es un sprint en un proyecto ágil", "a qué se refiere un sprint", "cómo se llaman los entregables en un proyecto ágil", "qué significa un sprint", "por qué es importante un sprint", "a qué hace referencia un sprint"],
+            "responses": ["Un sprint es un período de tiempo definido para completar un conjunto de tareas en un proyecto ágil.", "los entregables en un proyecto ágil se conocen como Sprint, y hacen referencia a un conjunto de tareas completadas en un período de tiempo.", "La importancia del Sprint radica en su entrega de valor de forma continua.", "Un Sprint es un período de tiempo definido (usualmente entre 2-4 semanas) durante el cual el equipo de desarrollo trabaja en un conjunto específico de tareas y objetivos."]
+        },
+        {
+            "tag": "backlog",
+            "patterns": ["qué es un backlog en un proyecto ágil", "qué significa un backlog", "cómo se llama la lista de tareas pendientes en un proyecto ágil", "cómo priorizar tareas en un proyecto ágil", "cómo llevar control de las tareas en un proyecto ágil", "cómo llevar un backlog en un proyecto ágil"],
+            "responses": ["Un backlog es una lista de tareas pendientes en un proyecto ágil.", "El Backlog es una lista priorizada de características, tareas y requisitos que se deben cumplir en un proyecto ágil.", "Las tareas se priorizan en un backlog según su importancia y urgencia.", "El Backlog se actualiza continuamente según los cambios en el proyecto."]
+        },
+        {
+            "tag": "tarea en un proyecto ágil",
+            "patterns": ["cómo se asignan las tareas en un proyecto ágil", "qué es una tarea en un proyecto ágil", "qué tipos de tareas hay en un proyecto ágil"],
+            "responses": ["Las tareas se asignan en un proyecto ágil según las prioridades y habilidades del equipo.", "Las tareas en un proyecto ágil son actividades específicas que se deben realizar para cumplir con los objetivos del proyecto.", " Se crea la tarea y se asigna a un miembro del equipo, se prioriza y se completa. Recuerda que las tareas son fundamentales para avanzar en un proyecto ágil y asegurarse de que se cumplen los objetivos.", "En un proyecto ágil hay tareas técnicas, tareas de diseño, tareas de testing y tareas de documentación."]
+        },
+        {
+            "tag": "herramientas de gestión de proyectos",
+            "patterns": ["qué herramientas necesito para desarrollar un proyecto ágil", "cuáles son las mejores herramientas para desarrollar un proyecto ágil", "qué IDE me recomiendas para desarrollar un proyecto ágil", "herramientas esenciales para desarrollo ágil", "qué herramientas usar para un proyecto ágil"],
+            "responses": ["Herramientas comunes en proyectos ágiles incluyen Jira, Trello, Asana, etc.", "Algunas herramientas populares para la gestión de proyectos incluyen: Jira, Trello, Asana, Microsoft Planner, Basecamp.", "La elección de la herramienta adecuada dependerá de las necesidades específicas de tu proyecto y equipo.", "Existen herramientas de gestión de proyectos, herramientas de colaboración y comunicación, herramientas de seguimiento de tiempo y costo. En tus manos esta la elección, según  las necesidades específicas de tu proyecto y equipo."]
+        }        
+    ]
+}

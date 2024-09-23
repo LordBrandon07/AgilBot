@@ -1,0 +1,5 @@
+__pycache__/
+nltk_data/
+agilbot_model.keras
+classes.pkl
+words.pkl
