@@ -11,3 +11,18 @@ def busqueda(query,num_results):
       if i>=num_results:
           break 
       print(result)
+
+# Definir la consulta de búsqueda
+def busquedaTelegram(query, num_results, message, bot):
+    # Buscar en Google y obtener las primeras URLs
+    results = search(query)
+    
+    # Si hay resultados, envía los enlaces al chat de Telegram
+    if results:
+        bot.reply_to(message, 'Páginas con información relacionada:')
+        for i, result in enumerate(results):
+            if i >= num_results:
+                break
+            bot.reply_to(message, result)
+    else:
+        bot.reply_to(message, 'No se encontraron resultados para tu búsqueda.')

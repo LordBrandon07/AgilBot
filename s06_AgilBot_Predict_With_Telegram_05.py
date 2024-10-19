@@ -8,12 +8,9 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
 
-# Sintesis de audio (opcional si lo quieres en Telegram)
-import pyttsx3
-
 # Librerías para funciones adicionales
 #from s05_RNN_ParagrapsGeneratorPredict4 import predict_paragraph
-from s06_URL_Search_02 import busqueda
+from s06_URL_Search_02 import busquedaTelegram
 
 # Descargar el paquete necesario de nltk
 nltk.download('punkt')
@@ -84,11 +81,12 @@ def chatbot_response(message):
         text, tag = respuesta(user_message)
         bot.reply_to(message, text)
 
-        # Opcional: realizar búsqueda online si la categoría coincide con los tags válidos
+        # Realizar búsqueda online si la categoría coincide con los tags válidos
         tags_validos = ['tecnología', 'programación', 'proyecto ágil', 'desarrollo ágil', 'sprint', 'backlog', 'tarea en un proyecto ágil', 'herramientas de gestión de proyectos']
         if tag in tags_validos:
-            bot.reply_to(message, "Puedes buscar información en las siguientes páginas web:")
-            busqueda(text, 3)
+            bot.reply_to(message, "Buscando información en línea...")
+            busquedaTelegram(user_message, 3, message, bot)  # Pasamos el mensaje y el bot como argumentos
+
 
 # Iniciar el bot
 print("El chatbot está listo y conectado a Telegram.")
